@@ -1,0 +1,9 @@
+numpy>=1.24
+scipy>=1.10
+torch>=2.0
+matplotlib>=3.7
+# for running / editing the tutorial notebook
+jupyter>=1.0
+jupytext>=1.15
+# for the forward-model test-suite
+pytest>=7.0
