@@ -111,7 +111,7 @@ The notebook is paired (via [jupytext](https://jupytext.readthedocs.io/)) with a
 After Reynolds averaging and a K-theory closure, methane transport over a homogeneous field reduces to
 a 1-D advection–diffusion "master equation" in which downwind distance plays the role of time:
 
-$$ U \partial_x C = \partial_z \left(K\,\partial_z C\right), \qquad -K\,\partial_z C\big|_{z=0} = Q_0. $$
+$$ U \partial_x C = \partial_z \left(K \partial_z C\right), \qquad -K \partial_z C\big|_{z=0} = Q_0. $$
 
 For constant K this has a closed-form (erfc) solution used as ground truth; the general
 height-varying-K case has no closed form and is what the finite-volume solver — and, ultimately, the
