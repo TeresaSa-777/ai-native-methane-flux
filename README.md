@@ -27,7 +27,7 @@ heavily-annotated notebook: **[`notebooks/methane_flux_ai_tutorial.ipynb`](noteb
 | **Uncertainty quantification / Bayesian methods** | A deep ensemble (calibrated against ground truth) and a full posterior over the unknown flux, with credible intervals. |
 | **Correctness & evaluation** | The solver is validated against a closed-form solution and shown to converge under grid refinement; a `pytest` suite checks the physics. |
 
-The physics is a faithful although deliberately simplified. The companion derivation document walks through every
+The physics is faithful although deliberately simplified. The companion derivation document walks through every
 equation from the 3-D advection–diffusion equation down to the finite-volume scheme.
 
 ---
